@@ -25,3 +25,24 @@ function getInflationIndex() {
     document.getElementById('inflation-index-result').innerText = `El índice de inflación para el período ${period} es ${inflationIndex}%`;
 }
 
+
+
+function getFinancialHealth() {
+    const financialHealthRNC = document.getElementById('financialHealthID')
+    const isHealthy = 'Yes'
+    const comment = "Comentario salud financiera placeholder"
+    const totalAmount = 5000
+    
+    document.getElementById('financial-health-result').innerText = `Es saludable: ${isHealthy}\n Comentario: ${comment}\n Monto Total: ${totalAmount}`
+    
+}
+
+function getCreditHistory() {
+    const creditHistoryRNC = document.getElementById('creditHistoryID')
+    const receiverRNC = 123456789
+    const debtConcept = "Concepto deuda placeholder"
+    const debtDate = "01/09/2001"
+    const totalAmount = 1999.99
+
+    document.getElementById('credit-history-result').innerText = `RNC Adeudado: ${receiverRNC}\n Concepto Deuda: ${debtConcept}\n Fecha: ${debtDate}\n Monto Total: ${totalAmount}`
+}

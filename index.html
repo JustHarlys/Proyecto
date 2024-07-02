@@ -22,6 +22,20 @@
         <button onclick="getInflationIndex()">Consultar</button>
         <p id="inflation-index-result"></p>
     </div>
+
+    <div id="financial-health">
+        <h2>Consultar Salud Financiera</h2>
+        <input type="text" id="financialHealthID" placeholder="Cedula o RNC de Cliente">
+        <button onclick="getFinancialHealth()">Consultar</button>
+        <p id="financial-health-result"></p>
+    </div>
+
+    <div id="credit-history">
+        <h2>Consultar Historial Crediticio</h2>
+        <input type="text" id="creditHistoryID" placeholder="Cedula o RNC de Cliente">
+        <button onclick="getCreditHistory()">Consultar</button>
+        <p id="credit-history-result"></p>
+    </div>
     
     <script src="script.js"></script>
 </body>
